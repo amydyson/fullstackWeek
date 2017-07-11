@@ -1,0 +1,10 @@
+<h1>Login Page</h1>
+<!-- Action is designating where the form is taking you -->
+<form  action="welcome" method="post">
+  <input type="text" name="Username" placeholder="Username" required>
+  <br>
+  <input type="password" name="Password" placeholder="Password" required>
+  <br>
+  <button type="submit" name="button">Submit</button>
+</form>
+  <%= flash[:alert] %>
